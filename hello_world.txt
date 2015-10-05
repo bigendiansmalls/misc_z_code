@@ -1,0 +1,256 @@
+  Command options:
+     Program name. . . . . . . . . : ./hello_world.c
+     Compiler options. . . . . . . : *GONUMBER   *NOALIAS    *RENT       *TERMINAL   *NOUPCONV   *SOURCE     *LIST       
+                                   : *NOXREF     *NOAGG      *NOPPONLY   *NOEXPMAC   *NOSHOWINC  *NOOFFSET   *MEMORY     *NOSSCOMM   
+                                   : *NOSHOWMACROS           *SKIPSRC(SHOW)          *NOREPORT   *NOMAKEDEP  *PREFETCH   
+                                   : *LONGNAME   *START      *EXECOPS    *ARGPARSE   *NOEXPORTALL*NODLL(NOCALLBACKANY)   
+                                   : *NOLIBANSI  *NOWSIZEOF  *REDIR      *ANSIALIAS  *DIGRAPH    *NOROCONST  *ROSTRING   
+                                   : *TUNE(5)    *ARCH(5)    *SPILL(128) *MAXMEM(2097152)        *NOCOMPACT  
+                                   : *TARGET(LE,CURRENT)     *FLAG(I)    *NOTEST(SYM,BLOCK,LINE,PATH,HOOK)   *NOOPTIMIZE 
+                                   : *NOINLINE(AUTO,NOREPORT,100,1000)   *NESTINC(255)           *BITFIELD(UNSIGNED)     
+                                   : *NOINFO
+                                   : *NODFP      
+                                   : *FLOAT(HEX,FOLD,NOMAF,AFP(NOVOLATILE))          *STRICT     
+                                   : *NOCOMPRESS *NOSTRICT_INDUCTION     *AGGRCOPY(NOOVERLAP)    *CHARS(UNSIGNED)
+                                   : *NOIGNERRNO 
+                                   : *NOINITAUTO
+                                   : *NOCSECT
+                                   : *NOEVENTS
+                                   : *ASSERT(RESTRICT)
+                                   : *NORESTRICT
+                                   : *OBJECT(./hello_world.o)
+                                   : *NOGENASM
+                                   : *NOOPTFILE
+                                   : *NOSERVICE
+                                   : *OE
+                                   : *NOIPA
+                                   : *SEARCH(/usr/include/, //'CEE.SCEEH.+')
+                                   : *NOLSEARCH
+                                   : *LOCALE     *HALT(16)   *PLIST(HOST)
+                                   : *NOCONVLIT
+                                   : *NOASCII    
+                                   : *NOGOFF     *ILP32      *NOWARN64   *NOHGPR(NOPRESERVE)     *NOHOT      *NOMETAL    *NOARMODE   
+                                   : *NOXPLINK(NOBACKCHAIN,NOSTOREARGS,NOCALLBACK,GUARD,OSCALL(NOSTACK))
+                                   : *ENUMSIZE(SMALL)
+                                   : *NOHALTONMSG
+                                   : *NOSUPPRESS
+                                   : *NORTCHECK
+                                   : *DEBUG(FORMAT(DWARF),LEVEL(0),HOOK(LINE,BLOCK,PATH,CALL,FUNC),SYMBOL,
+                                   :        FILE(./hello_world.dbg))
+                                   : *NOSQL
+                                   : *NOCICS
+                                   : *UNROLL(AUTO)
+                                   : *KEYWORD()
+                                   : *NOKEYWORD(typeof)
+                                   : *NOSEVERITY
+                                   : *NODSAUSER
+                                   : DEFINE(errno=(*__errno()))
+                                   : DEFINE(_OPEN_DEFAULT=1)
+     Version Macros. . . . . . . . : __COMPILER_VER__=0x410D0000 __LIBREL__=0x410D0000 __TARGET_LIB__=0x410D0000
+     Language level. . . . . . . . : *ANSI:NOTEXTAFTERENDIF  
+     Source margins. . . . . . . . :  
+       Varying length. . . . . . . : 1 - 32760
+       Fixed length. . . . . . . . : 1 - 32760
+     Sequence columns. . . . . . . :  
+
+ 
+ 
+                                       * * * * *   P R O L O G   * * * * *
+ 
+       Varying length. . . . . . . : none
+       Fixed length. . . . . . . . : none
+     Locale Name . . . . . . . . . : POSIX
+     Code Set. . . . . . . . . . . : IBM-1047
+ 
+                                * * * * *   E N D   O F   P R O L O G   * * * * *
+
+ 
+ 
+                                           * * * * *   S O U R C E   * * * * *
+ 
+  LINE  STMT                                                                                                       SEQNBR INCNO
+              *...+....1....+....2....+....3....+....4....+....5....+....6....+....7....+....8....+....9....+..*
+     1       |#include <stdio.h>                                                                                |      1
+     2       |                                                                                                  |      2
+     3       |int main(int argc, char ** argv) {                                                                |      3
+     4     1 |	printf("Hello World!\n");                                                                        |      4
+     5     2 |	return 0;                                                                                        |      5
+     6       |}                                                                                                 |      6
+                                     * * * * *   E N D   O F   S O U R C E   * * * * *
+
+ 
+ 
+                         * * * * *   I N C L U D E S   * * * * *
+ 
+ INCLUDE FILES  ---  FILE#   NAME
+ 
+                        1   /usr/include/stdio.h
+                        2   /usr/include/features.h
+                        3   /usr/include/sys/types.h
+ 
+                         * * * * *   E N D   O F   I N C L U D E S   * * * * *
+
+ 
+ 
+                              * * * * *   M E S S A G E   S U M M A R Y   * * * * *
+ 
+         Total            Informational(00)          Warning(10)          Error(30)            Severe Error(40)
+ 
+           0                    0                        0                   0                        0
+                         * * * * *   E N D   O F   M E S S A G E   S U M M A R Y   * * * * *
+
+ 
+ OFFSET OBJECT CODE        LINE#  FILE#    P S E U D O   A S S E M B L Y   L I S T I N G
+ 
+                           Timestamp and Version Information
+ 000010  F2F0  F1F5                                          =C'2015'           Compiled Year
+ 000014  F1F0  F0F5                                          =C'1005'           Compiled Date MMDD
+ 000018  F0F9  F0F6  F5F3                                    =C'090653'         Compiled Time HHMMSS
+ 
+ 000024  0074  ****                                          AL2(116),C'...'    Saved Options String
+                           Timestamp and Version End
+ 
+
+ 
+ OFFSET OBJECT CODE        LINE#  FILE#    P S E U D O   A S S E M B L Y   L I S T I N G
+ 
+                           000001 |       *  #include <stdio.h>
+                           000002 |       *  
+                           000003 |       *  int main(int argc, char ** argv) {
+ 0000A0                    000003 |        main     DS       0D
+ 0000A0  47F0  F022        000003 |                 B        34(,r15)
+ 0000A4  01C3C5C5                                            CEE eyecatcher
+ 0000A8  000000A8                                            DSA size
+ 0000AC  000000B0                                            =A(PPA1-main)
+ 0000B0  47F0  F001        000003 |                 B        1(,r15)
+ 0000B4  58F0  C31C        000003 |                 L        r15,796(,r12)
+ 0000B8  184E              000003 |                 LR       r4,r14
+ 0000BA  05EF              000003 |                 BALR     r14,r15
+ 0000BC  00000000                                            =F'0'
+ 0000C0  07F3              000003 |                 BR       r3
+ 0000C2  90E5  D00C        000003 |                 STM      r14,r5,12(r13)
+ 0000C6  58E0  D04C        000003 |                 L        r14,76(,r13)
+ 0000CA  4100  E0A8        000003 |                 LA       r0,168(,r14)
+ 0000CE  5500  C314        000003 |                 CL       r0,788(,r12)
+ 0000D2  4130  F03A        000003 |                 LA       r3,58(,r15)
+ 0000D6  4720  F014        000003 |                 BH       20(,r15)
+ 0000DA  58F0  C280        000003 |                 L        r15,640(,r12)
+ 0000DE  90F0  E048        000003 |                 STM      r15,r0,72(r14)
+ 0000E2  9210  E000        000003 |                 MVI      0(r14),16
+ 0000E6  50D0  E004        000003 |                 ST       r13,4(,r14)
+ 0000EA  18DE              000003 |                 LR       r13,r14
+ 0000EC                    End of Prolog
+ 
+ 0000EC  C050  0000  002A  000000 |                 LARL     r5,F'42'
+ 0000F2  5010  D0A0        000003 |                 ST       r1,#SR_PARM_1(,r13,160)
+ 0000F6  4400  C1B0        000003 |                 EX       r0,HOOK..PGM-ENTRY
+                           000004 |       *  	printf("Hello World!\n");
+ 0000FA  4400  C1AC        000004 |                 EX       r0,HOOK..STMT
+ 0000FE  58F0  305E        000004 |                 L        r15,=V(printf)(,r3,94)
+ 000102  1805              000004 |                 LR       r0,r5
+ 000104  4110  D098        000004 |                 LA       r1,#MX_TEMP1(,r13,152)
+ 000108  5000  D098        000004 |                 ST       r0,#MX_TEMP1(,r13,152)
+ 00010C  4400  C1C0        000004 |                 EX       r0,HOOK..CALLBGN
+ 000110  0DEF              000004 |                 BASR     r14,r15
+ 000112  4400  C1C4        000004 |                 EX       r0,HOOK..CALLRET
+                           000005 |       *  	return 0;
+ 000116  4400  C1AC        000005 |                 EX       r0,HOOK..STMT
+ 00011A  41F0  0000        000005 |                 LA       r15,0
+ 00011E  47F0  3048        000005 |                 B        @1L1
+                           000006 |       *  }
+ 000122                    000006 |        @1L1     DS       0H
+ 
+ 000122                    Start of Epilog
+ 000122  4400  C1B8        000006 |                 EX       r0,HOOK..PGM-EXIT
+ 000126  180D              000006 |                 LR       r0,r13
+ 000128  58D0  D004        000006 |                 L        r13,4(,r13)
+ 00012C  58E0  D00C        000006 |                 L        r14,12(,r13)
+ 000130  9825  D01C        000006 |                 LM       r2,r5,28(r13)
+ 000134  051E              000006 |                 BALR     r1,r14
+ 000136  0707              000006 |                 NOPR     7
+ 
+ 000138                    Start of Literals
+
+ 
+ OFFSET OBJECT CODE        LINE#  FILE#    P S E U D O   A S S E M B L Y   L I S T I N G
+ 
+ 000138  00000000                                            =V(printf)
+ 00013C                    End of Literals
+ 
+                           ***   General purpose registers used: 1101110000001111
+                           ***   Floating point  registers used: 1111111100000000
+                           ***   Size of register spill area: 128(max) 0(used)
+                           ***   Size of dynamic storage: 168
+                           ***   Size of executable code: 152
+ 
+ 00013C  0000  0000                                          
+ 
+                           Constant Area
+ 000140  C8859393 9640E696 9993845A 1500        |Hello World!..  |
+
+ 
+ OFFSET OBJECT CODE        LINE#  FILE#    P S E U D O   A S S E M B L Y   L I S T I N G
+ 
+                           PPA1: Entry Point Constants
+ 000150  1CCEA106                                            =F'483303686'      Flags
+ 000154  000001D8                                            =A(PPA2-main)
+ 000158  000000F0                                            =A(PPA3-main)
+ 00015C  00000000                                            =F'0'              No EPD
+ 000160  FF000000                                            =F'-16777216'      Register save mask
+ 000164  00000000                                            =F'0'              Member flags
+ 000168  90                                                  =AL1(144)          Flags
+ 000169  000000                                              =AL3(0)            Callee's DSA use/8
+ 00016C  0040                                                =H'64'             Flags
+ 00016E  0012                                                =H'18'             Offset/2 to CDL
+ 000170  00000000                                            =F'0'              Reserved
+ 000174  5000004C                                            =F'1342177356'     CDL function length/2
+ 000178  FFFFFF50                                            =F'-176'           CDL function EP offset
+ 00017C  38260000                                            =F'942014464'      CDL prolog
+ 000180  400B0041                                            =F'1074462785'     CDL epilog
+ 000184  00000000                                            =F'0'              CDL end
+ 000188  0004  ****                                          AL2(4),C'main'
+                           PPA1 End
+ 
+                           PPA3: Truncated Debug Unit Block
+ 000190  00000198                                            =A(Statement table)
+ 000194  00000000                                            =F'0'              Reserved
+                           PPA3 End
+ 
+                           PPA4: Compile Unit Debug Block
+ 0001E0  40000000                                            =F'1073741824'     Additional Flags
+ 0001E4  44710220                                            =F'1148256800'     Flags
+ 0001E8  00000000                                            =F'0'              R/O static Offset
+ 0001EC  00000000                                            =F'0'              R/W static Offset
+ 0001F0  00000000                                            =F'0'              Symbol Offset Table Offset
+ 0001F4  FFFFFE20                                            =F'-480'           CSECT Start Offset
+ 0001F8  00000290                                            =F'656'            Code CSECT Size
+ 0001FC  00000000                                            =F'0'              Reserved
+ 000200  00000035                                            =F'53'             DWARF File Name
+ 000204  ****                                                C'/u/bes/Documents/archive/hello_world/hello_world.dbg'
+ 000239  0033  ****                                          AL2(51),C'/u/bes/Documents/archive/hello_world/hello_world.c'
+                           PPA4 End
+ 
+                           PPA2: Compile Unit Block
+ 000278  0300  2203                                          =F'50340355'       Flags
+ 00027C  FFFF  FD88                                          =A(CEESTART-PPA2)
+ 000280  FFFF  FF68                                          =A(PPA4-PPA2)
+ 000284  FFFF  FD98                                          =A(TIMESTMP-PPA2)
+ 000288  0000  0000                                          =F'0'              No primary
+ 00028C  0240  0000                                          =F'37748736'       Flags
+                           PPA2 End
+
+ 
+                                   E X T E R N A L   S Y M B O L   D I C T I O N A R Y
+ 
+                       TYPE  ID  ADDR    LENGTH            NAME
+ 
+                        SD    1 000000   000290            @STATICP
+                        LD    0 0000A0   000001            main
+                        ER    2 000000                     CEESG003
+                        ER    3 000000                     printf
+                        ER    4 000000                     CEESTART
+                        SD    5 000000   000008            @@PPA2
+                        SD    6 000000   00000C            CEEMAIN
+                        ER    7 000000                     EDCINPL
+ 
+                              * * * * *   E N D   O F   C O M P I L A T I O N   * * * * *
